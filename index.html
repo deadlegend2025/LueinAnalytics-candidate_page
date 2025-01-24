@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title> LueinAnalytics candidate page</title>
+  </head>
+  <body>
+    <nav>
+      <div class="nav__header">
+        <div class="nav__logo">
+          <img src="assets/logo.png" alt="Logo" style="width: 150px; height: auto;">
+
+        </div>
+        <div class="nav__menu__btn" id="menu-btn">
+          <i class="ri-menu-line"></i>
+        </div>
+      </div>
+      <ul class="nav__links" id="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#job">Jobs</a></li>
+        <li><a href="#service">Services</a></li>
+        <li><a href="#client">Client</a></li>
+        <li><button class="btn">Register</button></li>
+      </ul>
+    </nav>
+    <header class="section__container header__container" id="home">
+      <img src="assets/google.png" alt="header" />
+      <img src="assets/twitter.png" alt="header" />
+      <img src="assets/amazon.png" alt="header" />
+      <img src="assets/figma.png" alt="header" />
+      <img src="assets/linkedin.png" alt="header" />
+      <img src="assets/microsoft.png" alt="header" />
+      <h2>
+        <img src="assets/bag.png" alt="bag" />
+        LueinAnalytics
+      </h2>
+      <h1>Search, Apply &<br />Get Your <span>Dream Job</span></h1>
+      <p>
+        "Your future starts here with LueinAnalytics. Explore endless opportunities, apply with confidence, and elevate your career to new heights."
+      </p>
+      <div class="header__btns">
+        <button class="btn">Browse Jobs</button>
+        <a href="#" id="howItWorksBtn">
+          <span><i class="ri-play-fill"></i></span>
+          LueinAnalytics
+        </a>
+      </header>
+      
+        <div id="videoModal" class="modal">
+          <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <video id="videoPlayer" controls autoplay>
+              <source src="assets/video.mp4" type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
+          </div>
+        </div>
+      
+
+
+    <section class="steps" id="about">
+      <div class="section__container steps__container">
+        <h2 class="section__header">
+          Get Hired in 4 <span>Quick Easy Steps</span>
+        </h2>
+        <p class="section__description">
+          Follow Our Simple, Step-by-Step Guide to Quickly Land Your Dream Job
+          and Start Your New Career Journey.
+        </p>
+        <div class="steps__grid">
+          <div class="steps__card">
+            <span><i class="ri-user-fill"></i></span>
+            <h4>Create an Account</h4>
+            <p>
+              Sign up with just a few clicks to unlock exclusive access to a
+              world of job opportunities and landing your dream job. It's quick,
+              easy, and completely free.
+            </p>
+          </div>
+          <div class="steps__card">
+            <span><i class="ri-search-fill"></i></span>
+            <h4>Search Job</h4>
+            <p>
+              Dive into our job database tailored to match your skills and
+              preferences. With our advanced search filters, finding the perfect
+              job has never been easier.
+            </p>
+          </div>
+          <div class="steps__card">
+            <span><i class="ri-file-paper-fill"></i></span>
+            <h4>Upload CV/Resume</h4>
+            <p>
+              Showcase your experience by uploading your CV or resume. Let
+              employers know why you're the perfect candidate for their job
+              openings.
+            </p>
+          </div>
+          <div class="steps__card">
+            <span><i class="ri-briefcase-fill"></i></span>
+            <h4>Get Job</h4>
+            <p>
+              Take the final step towards your new career. Get ready to embark
+              on your professional journey and secure the job you've been
+              dreaming of.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container explore__container">
+      <h2 class="section__header">
+        <span> Explore Our Live Products:</span> 
+        <span style="color: rgb(243, 115, 41);">LueinHire</span> for Job Opportunities & SMART AMS for Seamless Management.
+    </h2>
+    
+      <p class="section__description">
+        Discover a World of Exciting Opportunities and Endless Possibilities,
+        and Find the Perfect Career Path to Shape Your Future.
+      </p>
+      <div class="explore__grid">
+        <div class="explore__card">
+          <span><i class="ri-pencil-ruler-2-fill"></i></span>
+          <h4>
+            LueinHire</h4>
+          <p>
+            LueinHire
+            
+            Artificial Intelligence powered Video Interview Platform (On-demand video interview, Live video Interview, coding interview, cognitive behavioural insights, etc)</p>
+        </div>
+        <div class="explore__card">
+          <span><i class="ri-bar-chart-box-fill"></i></span>
+          <h4>
+            SMART AMS</h4>
+          <p>ace recognition and Geo-location base Attendance Management System for Schools and Government Anganwadi Centres (student and staff attendance)</p>
+        </div>
+        <div class="explore__card">
+          <span><i class="ri-megaphone-fill"></i></span>
+          <h4>Healthcare Automation</h4>
+          <p>An intelligent Medical IDP platform to extract, transform and organise informations from Healthcare unstructured data sources.</p>
+        </div>
+        <div class="explore__card">
+          <span><i class="ri-wallet-3-fill"></i></span>
+          <h4>AI in Public Healthcare</h4>
+          <p>Transforming Cervical Cancer Screening with an AI  Image Processing and Multi-Lingual Mobile Application.</p>
+        </div>
+        <div class="explore__card">
+          <span><i class="ri-car-fill"></i></span>
+          <h4>Regulatory Compliance</h4>
+          <p>AI powered semantic search search engine to closely resemble the practitioner’s manual approach to regulatory research.</p>
+        </div>
+        <div class="explore__card">
+          <span><i class="ri-truck-fill"></i></span>
+          <h4>ePublishing </h4>
+          <p>Using Machine Learning CNN, to automate the document proofreading by highlighting and validating the
+            document layout & alignment errors.</p>
+        </div>
+        <div class="explore__card">
+          <span><i class="ri-computer-fill"></i></span>
+          <h4>Staffing and Recruitment</h4>
+          <p>An AI based tool designed to assist recruiters to do candidate soft-skill assessment and psychological profiling.</p>
+        </div>
+        <div class="explore__card">
+          <span><i class="ri-building-fill"></i></span>
+          <h4>Asset Management</h4>
+          <p>Automate customer communication analysis to help organisations to focus on critical and high priority issues.</p>
+        </div>
+      </div>
+      <div class="explore__btn">
+        <button class="btn">View All Categories</button>
+      </div>
+    </section>
+
+    <section class="section__container job__container" id="job">
+      <h2 class="section__header"><span>Latest & Top</span> Job Openings</h2>
+      <p class="section__description">
+        Discover Exciting New Opportunities and High-Demand Positions Available
+        Now in Top Industries and Companies
+      </p>
+
+      <div class="job__grid">
+        <div class="job__card">
+          <div class="job__card__header">
+            <img src="assets/figma.png" alt="job" />
+            <div>
+              <h5>Figma</h5>
+              <h6>USA</h6>
+            </div>
+          </div>
+          <h4>Senior Product Engineer</h4>
+          <p>
+            Lead the development of innovative product solutions, leveraging
+            your expertise in engineering and product management to drive
+            success.
+          </p>
+          <div class="job__card__footer">
+            <span>12 Positions</span>
+            <span>Full Time</span>
+            <span>$1,45,000/Year</span>
+          </div>
+        </div>
+        <div class="job__card">
+          <div class="job__card__header">
+            <img src="assets/google.png" alt="job" />
+            <div>
+              <h5>Google</h5>
+              <h6>USA</h6>
+            </div>
+          </div>
+          <h4>Project Manager</h4>
+          <p>
+            Manage project timelines and budgets to ensure successful delivery
+            of projects on schedule, while maintaining clear communication with
+            stakeholders.
+          </p>
+          <div class="job__card__footer">
+            <span>2 Positions</span>
+            <span>Full Time</span>
+            <span>$95,000/Year</span>
+          </div>
+        </div>
+        <div class="job__card">
+          <div class="job__card__header">
+            <img src="assets/linkedin.png" alt="job" />
+            <div>
+              <h5>LinkedIn</h5>
+              <h6>Germany</h6>
+            </div>
+          </div>
+          <h4>Full Stack Developer</h4>
+          <p>
+            Develop and maintain both front-end and back-end components of web
+            applications, utilizing a wide range of programming languages and
+            frameworks.
+          </p>
+          <div class="job__card__footer">
+            <span>10 Positions</span>
+            <span>Full Time</span>
+            <span>$35,000/Year</span>
+          </div>
+        </div>
+        <div class="job__card">
+          <div class="job__card__header">
+            <img src="assets/amazon.png" alt="job" />
+            <div>
+              <h5>Amazon</h5>
+              <h6>USA</h6>
+            </div>
+          </div>
+          <h4>Front-end Developer</h4>
+          <p>
+            Design and implement user interfaces using HTML, CSS, and
+            JavaScript, collaborating closely with designers and back-end
+            developers.
+          </p>
+          <div class="job__card__footer">
+            <span>20 Positions</span>
+            <span>Full Time</span>
+            <span>$1,01,000/Year</span>
+          </div>
+        </div>
+        <div class="job__card">
+          <div class="job__card__header">
+            <img src="assets/twitter.png" alt="job" />
+            <div>
+              <h5>Twitter</h5>
+              <h6>USA</h6>
+            </div>
+          </div>
+          <h4>ReactJS Developer</h4>
+          <p>
+            Specialize in building dynamic and interactive user interfaces using
+            the ReactJS library, leveraging your expertise in JavaScript and
+            front-end development.
+          </p>
+          <div class="job__card__footer">
+            <span>6 Positions</span>
+            <span>Full Time</span>
+            <span>$98,000/Year</span>
+          </div>
+        </div>
+        <div class="job__card">
+          <div class="job__card__header">
+            <img src="assets/microsoft.png" alt="job" />
+            <div>
+              <h5>Microsoft</h5>
+              <h6>USA</h6>
+            </div>
+          </div>
+          <h4>Python Developer</h4>
+          <p>
+            Develop scalable and efficient backend systems and applications
+            using Python, utilizing your proficiency in Python programming and
+            software development.
+          </p>
+          <div class="job__card__footer">
+            <span>9 Positions</span>
+            <span>Full Time</span>
+            <span>$80,000/Year</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container offer__container" id="service">
+      <h2 class="section__header">What We <span>Offer ?</span></h2>
+      <p class="section__description">
+        Explore the Benefits and Services We Provide to Enhance Your Job Search
+        and Career Success
+      </p>
+      <div class="offer__grid">
+        <div class="offer__card">
+          <img src="assets/offer-1.jpg" alt="offer" />
+          <div class="offer__details">
+            <span>01</span>
+            <div>
+              <h4>AI Opportunity Analysis</h4>
+              <p>
+                We find you the lowest
+hanging fruits for
+AI-driven automation with
+clarity on the potential
+ROI. We also help you
+prepare for future
+automation opportunities
+if you’re just getting
+started.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="offer__card">
+          <img src="assets/offer-2.jpg" alt="offer" />
+          <div class="offer__details">
+            <span>02</span>
+            <div>
+              <h4>AI Strategy Consulting</h4>
+              <p>Have an idea but don’t
+                know how to proceed?
+                We’ll bring your AI vision
+                to life. We work with you
+                at the planning as well as
+                implementation level to
+                move your AI agenda
+                forward.</p>
+            </div>
+          </div>
+        </div>
+        <div class="offer__card">
+          <img src="assets/offer-3.jpg" alt="offer" />
+          <div class="offer__details">
+            <span>03</span>
+            <div>
+              <h4>Custom AI Solution</h4>
+              <p>Get complex AI systems
+                developed by the experts.
+                We start with your
+                business goals, followed
+                by an analysis of your
+                current technology stack,
+                data availability, and
+                more.
+                Prototype | Minimum Viable
+                Product | Complete Solution |
+                Help with Existing Product</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container client__container" id="client">
+      <h2 class="section__header">What Our <span>Client Say</span></h2>
+      <p class="section__description">
+        Read Testimonials and Success Stories from Our Satisfied Job Seekers and Employers to See How LueinAnalyticsServices Makes a Difference.
+      </p>
+      <!-- Slider main container -->
+      <div class="swiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide">
+            <div class="client__card">
+              <img src="assets/client-1.jpg" alt="client" />
+              <p>
+                Harendra Singh is a gifted enthusiastic social entrepreneur with a rare combination of patience, spunk, and research skills. Harendra is a AI strategy advisor to us for many products development in Artificial Intelligence (AI) and Data Science for APAC regions. I happily recommend him here on LinkedIn, and do so in person to my clients whenever I have the opportunity.
+              </p>
+              <div class="client__ratings">
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-fill"></i></span>
+              </div>
+              <h4>Srinivasan</h4>
+              <h5>Director - kamlaxglobal.com (Malaysia)</h5>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="client__card">
+              <img src="assets/client-2.jpg" alt="client" />
+              <p>
+                Working with Luein Analytics on AI use cases was (and continues to be) an amazing experience. We worked closely with Luein Analytics to execute on our shared vision of making customers successful through the adoption of AI that accelerates enhanced decision making around an ever evolving risk and compliance landscape
+              </p>
+              <div class="client__ratings">
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-half-fill"></i></span>
+              </div>
+              <h4>
+                Naveen Kumar TV</h4>
+              <h5>Managing Director, 4CRisk.ai (California)</h5>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="client__card">
+              <img src="assets/client-3.jpg" alt="client" />
+              <p>
+                We are extremely impressed with the exceptional level of cutting-edge AI research carried out by Luein Analytics. Their invaluable contribution in helping us develop three highly efficient customer-facing call auditing solutions has shattered our initial doubts about the feasibility of such automations. Collaborating with their dedicated research team for a remarkable 1.5 years, we witnessed their unwavering commitment, innovative mindset, consistent performance, and outstanding communication skills throughout the entire process.
+              </p>
+              <div class="client__ratings">
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-fill"></i></span>
+              </div>
+              <h4>Nicole Weil</h4>
+              <h5>VP Quality, Schneider Electric (Singapore)</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="section__container footer__container">
+        <div class="footer__col">
+          <div class="footer__logo">
+            <img src="assets/logo.png" alt="Logo" style="width: 150px; height: auto;">
+          </div>
+          <p>
+            Empowering Businesses with Artificial Intelligence (A.I) Consulting Solutions and Cutting-Edge Products for Data-driven Success
+          </p>
+        </div>
+        <div class="footer__col">
+          <h4>Quick Links</h4>
+          <ul class="footer__links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Jobs</a></li>
+            <li><a href="#">Testimonials</a></li>
+            <li><a href="#">Contact Us</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>Follow Us</h4>
+          <ul class="footer__links">
+            <li><a href="#">Facebook</a></li>
+            <li><a href="https://www.lueinanalytics.com/">Website</a></li>
+            <li><a href="https://in.linkedin.com/company/luein-analytics/">LinkedIn</a></li>
+            <li><a href="#">Twitter</a></li>
+            <li><a href="#">Youtube</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>Contact Us</h4>
+          <ul class="footer__links">
+            <li>
+              <a href="#">
+                <span><i class="ri-phone-fill"></i></span>+91-99712 43005 (INDIA)
+                +1 (650) 3537693 (USA)
+                
+                contact@lueinanalytics.com
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span><i class="ri-map-pin-2-fill"></i></span> 1st Floor 13th Cross Road, 27th Main Rd, 1st Sector, HSR Layout, Bengaluru, Karnataka 560102
+                Bangalore
+                Karnataka
+                India
+                560102
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__bar">
+        © 2017 - 2023 LUEIN ANALYTICS RESEARCH AND CONSULTING (OPC) PRIVATE LIMITED. All rights reserved.
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
